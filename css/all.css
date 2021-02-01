@@ -176,6 +176,8 @@
     }
     .banner h3{
         color: white;
+        margin-top: 26px;
+        line-height: 1.5;
     }
     .banner .txtarea{
         margin: 0 auto;    
@@ -184,14 +186,23 @@
         width: 460px;
         text-align: center;
     }
-    .banner .txtarea h3{
-        margin-top: 26px;
-        line-height: 1.5;
-    }
     @media (max-width: 576px){
         .banner{
         background-image: url(../img/Bitmap.png);
     }
+    }
+    @media (max-width: 414px){
+        .banner h2{
+            display: none;
+        }
+        .banner h3{
+            font-size: 18px;
+            margin-top: 0;
+        }
+        .banner .txtarea{
+            width: 290px;
+            padding: 10px
+        }
     }
     .footer{
         display: flex;
