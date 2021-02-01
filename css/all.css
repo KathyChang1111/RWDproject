@@ -196,7 +196,9 @@
             display: none;
         }
         .banner h3{
-            font-size: 18px;
+            font-size: 22px;
+            font-weight: bolder;
+            line-height: 2;
             margin-top: 0;
         }
         .banner .txtarea{
